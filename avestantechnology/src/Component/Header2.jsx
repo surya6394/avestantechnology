@@ -13,7 +13,7 @@ function Header2() {
 
   return (
     <>
-      <div className="bg-bgclr mt-2">
+      <div className="bg-bgclr">
         <nav className="flex justify-between h-40 pb-14 items-center w-[92%] pt-10 mx-auto text-white">
           <div>
             <Link to="/">
