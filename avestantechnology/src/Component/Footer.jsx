@@ -8,7 +8,7 @@ function Footer() {
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h2 class="mb-6 text-xl font-bold text-gray-900 dark:text-white">Company</h2>
+            <h2 class="mb-6 text-xl font-bold text-white dark:text-white">Company</h2>
             <ul class="text-white font-bold font-md">
                 <li class="mb-4">
                     <Link to='/' class=" hover:underline">About Us</Link>
@@ -22,7 +22,7 @@ function Footer() {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-xl font-bold text-gray-900 dark:text-white">Support</h2>
+            <h2 class="mb-6 text-xl font-bold text-white dark:text-white">Support</h2>
             <ul class="text-white font-bold font-md">
                 <li class="mb-4">
                     <Link to='/' class="hover:underline">Help Center</Link>
@@ -36,7 +36,7 @@ function Footer() {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-xl font-bold text-gray-900 dark:text-white">Legal</h2>
+            <h2 class="mb-6 text-xl font-bold text-white dark:text-white">Legal</h2>
             <ul class="text-white font-bold font-md">
             <li class="mb-4">
                     <Link to='/' class="hover:underline">Cookies Policy</Link>
@@ -53,7 +53,7 @@ function Footer() {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-xl font-bold text-gray-900 dark:text-white">Install App</h2>
+            <h2 class="mb-6 text-xl font-bold text-white dark:text-white">Install App</h2>
             
         </div>
     </div>

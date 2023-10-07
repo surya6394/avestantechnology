@@ -1,8 +1,11 @@
 import React from 'react';
 import { FaHandPointRight } from "react-icons/fa";
+import Header from './Header';
 
 function Login() {
   return (
+    <>
+    <Header />
     <div className="flex grid-cols-2">
       <div>
         <h1>Benefits of Saving Account</h1>
@@ -33,6 +36,7 @@ function Login() {
       </div>
       <div></div>
     </div>
+    </>
   )
 }
 
