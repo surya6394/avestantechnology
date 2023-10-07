@@ -21,7 +21,7 @@ const OTPVerificationPopup = ({ isOpen, onClose }) => {
             />
           ))}
         </div>
-        <button className="mt-6 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={onClose}>
+        <button className="mt-6 bg-bgclr text-white px-4 py-2 rounded hover:bg-blue-600" onClick={onClose}>
           Verify OTP
         </button>
       </div>
