@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   content: [
@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
+        "bgclr": "#002a54",
         "txt-clr": "#222222",
         "hover-clr": "#F88F50",
         "txt-clr2": "#dfe6e9",
@@ -18,10 +19,6 @@ module.exports = {
         "linkedin-clr": "#2980b9",
         "bgclr1": "#96BDA6",
         "btnclr1": "#CDB30C"
-      },
-
-      backgroundImage:{
-        
       }
     },
   },
